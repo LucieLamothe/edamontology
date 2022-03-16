@@ -37340,6 +37340,26 @@
 
 
 
+    <!-- http://edamontology.org/format_4023 -->
+
+    <owl:Class rdf:about="http://edamontology.org/format_4023">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/format_2332"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/format_2030"/>
+        <created_in>1.26</created_in>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Chemical_Markup_Language"/>
+        <rdfs:seeAlso rdf:resource="http://www-pmr.ch.cam.ac.uk/wiki/Chemical_Markup_Language"/>
+        <rdfs:seeAlso rdf:resource="http://fileformats.archiveteam.org/wiki/CML"/>
+        <example rdf:resource="https://www.ch.ic.ac.uk/omf/cml/doc/examples/"/>
+        <citation rdf:resource="https://doi.org/10.1039/CS9972600001"/>
+        <citation rdf:resource="https://doi.org/10.1021/ci990052b"/>
+        <citation rdf:resource="https://doi.org/10.1186/1758-2946-3-44"/>
+        <documentation rdf:resource="http://cml.sourceforge.net/"/>
+        <organisation rdf:resource="http://www-pmr.ch.cam.ac.uk/wiki/Main_Page"/>
+        <file_extension>cml</file_extension>
+        <oboInOwl:hasDefinition>Chemical Markup Language (CML) is an XML-based format for encoding detailed information about a wide range of chemical concepts.</oboInOwl:hasDefinition>
+
+
+
     <!-- http://edamontology.org/format_4024 -->
 
     <owl:Class rdf:about="http://edamontology.org/format_4024">
@@ -61213,6 +61233,7 @@
     </owl:Class>   
 
 
+
     <!-- http://edamontology.org/topic_4020 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_4020">
@@ -61230,6 +61251,7 @@
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Biogeochemical_cycle"/>
         <rdfs:comment>Note that the carbon-nitrogen-oxygen (CNO) cycle (https://en.wikipedia.org/wiki/CNO_cycle) is a completely different, thermonuclear reaction in stars.</rdfs:comment>
     </owl:Class>
+
 
 
     <!-- http://edamontology.org/topic_4021 -->
@@ -61270,6 +61292,7 @@
     </owl:Class>
 
 
+
 	   <!-- http://edamontology.org/topic_4028 -->
 	
 	<owl:Class rdf:about="http://edamontology.org/topic_4028">
@@ -61298,7 +61321,9 @@
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Acoustics"/>
     </owl:Class>
 
-	    <!-- http://edamontology.org/topic_4030 -->
+
+
+    <!-- http://edamontology.org/topic_4030 -->
 	
 	<owl:Class rdf:about="http://edamontology.org/topic_4030">
         <created_in>1.26</created_in>
@@ -61312,6 +61337,7 @@
         <oboInOwl:hasDefinition>Interdisplinary study of behavior, precise control, and manipulation of low (microlitre) volume fluids in constrained space.</oboInOwl:hasDefinition>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Microfluidics"/>
     </owl:Class>
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
