@@ -37357,7 +37357,11 @@
         <organisation rdf:resource="http://www-pmr.ch.cam.ac.uk/wiki/Main_Page"/>
         <file_extension>cml</file_extension>
         <oboInOwl:hasDefinition>Chemical Markup Language (CML) is an XML-based format for encoding detailed information about a wide range of chemical concepts.</oboInOwl:hasDefinition>
-
+        <oboInOwl:hasExactSynonym>ChemML</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#formats"/>
+        <rdfs:label>cml</rdfs:label>
+    </owl:Class>
 
 
     <!-- http://edamontology.org/format_4024 -->
