@@ -1065,7 +1065,11 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#obsolete"/>
         <oboInOwl:replacedBy rdf:resource="http://edamontology.org/data_0958"/>
         <rdfs:label>Tool</rdfs:label>
+<<<<<<< Updated upstream
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+=======
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">toto</owl:deprecated>
+>>>>>>> Stashed changes
     </owl:Class>
     
 
@@ -1116,7 +1120,11 @@
         <oboInOwl:hasDefinition>A directory on disk from which files are read.</oboInOwl:hasDefinition>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#obsolete"/>
         <rdfs:label>Directory metadata</rdfs:label>
+<<<<<<< Updated upstream
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+=======
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">BLABLABLA</owl:deprecated>
+>>>>>>> Stashed changes
     </owl:Class>
     
 
@@ -21035,6 +21043,7 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#identifiers"/>
         <rdfs:label>Linucs ID</rdfs:label>
+        <regex>[1-9][0-9]*</regex>
     </owl:Class>
     
 
