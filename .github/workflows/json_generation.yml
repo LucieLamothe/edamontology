@@ -17,17 +17,17 @@ jobs:
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: Install edam2json
-        run: |
-          python -m pip install --upgrade pip
-          pip install git+https://github.com/edamontology/edam2json.git
-      - name: Test conversion
-        run: |
-          edam2json EDAM_dev.owl biotools --extended > edam_extended.biotools.json
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install edam2json
+      run: |
+        python -m pip install --upgrade pip
+        pip install git+https://github.com/edamontology/edam2json.git
+    - name: Test conversion
+      run: |
+        edam2json EDAM_dev.owl biotools --extended > edam_extended.biotools.json
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
