@@ -1,4 +1,4 @@
-name: EDAM-VALIDATION 
+name: WEB APP EDAM-VALIDATION 
 
 on: [push, workflow_dispatch]
 
