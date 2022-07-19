@@ -22,6 +22,7 @@ jobs:
       run: |
         cd edam-validation/edamci/
         EDAM_PATH=../../EDAM_dev.owl python3 edamci.py -c -e -E # runs all tests (essential, error, curation)
+        echo $?
      
     # - name: Print output
     #   if: always()
