@@ -1,11 +1,11 @@
 name: WEB APP EDAM-VALIDATION 
 
-on: [push, workflow_dispatch]
+on: [workflow_dispatch]
 
 jobs:
   
   edamci:
-    uses: LucieLamothe/edamontology/.github/workflows/web_app_edamci.yml@workflow_validation_web_app
+    uses: LucieLamothe/edamontology/.github/workflows/web_app_edamci.yml@main
 
   report:
-    uses: LucieLamothe/edamontology/.github/workflows/robot_report.yml@workflow_validation_web_app
+    uses: LucieLamothe/edamontology/.github/workflows/robot_report.yml@main
