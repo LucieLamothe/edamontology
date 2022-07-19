@@ -4,8 +4,8 @@ on: [workflow_dispatch]
 
 jobs:
   
-  edamci:
-    uses: LucieLamothe/edamontology/.github/workflows/web_app_edamci.yml@main
+  edam-custom:
+    uses: LucieLamothe/edamontology/.github/workflows/web_app_edam-custom.yml@main
 
   report:
     uses: LucieLamothe/edamontology/.github/workflows/robot_report.yml@main
