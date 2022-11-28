@@ -17,5 +17,5 @@ jobs:
       if: always()
       run: |
         cd .github/workflows
-        ./sandbox.sh
+        ./sandbox.sh bad_uri
 
