@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo "hello"
+#echo "hello"
+cat toto
 status=$?
 if test $status -eq 0
 then
